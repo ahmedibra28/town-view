@@ -579,14 +579,14 @@ const data = [
   {
     category: 'Pizza',
     item: 'Migrate',
-    size: 'Large',
+    size: 'Medium',
     image: '283A0302.JPG',
     price: 8,
   },
   {
     category: 'Pizza',
     item: 'Migrate',
-    size: 'Medium',
+    size: 'Large',
     image: '283A0302.JPG',
     price: 10,
   },
@@ -600,14 +600,14 @@ const data = [
   {
     category: 'Pizza',
     item: 'Pizza',
-    size: 'Large',
+    size: 'Medium',
     image: '283A0300.JPG',
     price: 8,
   },
   {
     category: 'Pizza',
     item: 'Pizza',
-    size: 'Medium',
+    size: 'Large',
     image: '283A0300.JPG',
     price: 10,
   },
