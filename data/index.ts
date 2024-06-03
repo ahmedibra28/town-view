@@ -446,7 +446,7 @@ const data = [
   {
     category: 'Lunch',
     item: 'Rice Saldata',
-    price: '',
+    price: 2,
     image: 'DSC00096.JPG',
   },
   {
@@ -458,7 +458,7 @@ const data = [
   {
     category: 'Lunch',
     item: 'Dheylo Ari',
-    price: '',
+    price: 10,
     image: 'DSC00109.JPG',
   },
   {
