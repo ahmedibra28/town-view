@@ -2,7 +2,7 @@ const data = [
   {
     category: 'HOT DRINKS',
     item: 'Espresso',
-    price: 1.5,
+    price: 2,
     image: '283A0111.JPG',
   },
   {
@@ -32,13 +32,13 @@ const data = [
   {
     category: 'HOT DRINKS',
     item: 'Caramel Latte',
-    price: 2,
+    price: 2.5,
     image: '283A0133.JPG',
   },
   {
     category: 'HOT DRINKS',
     item: 'Vanilla Latte',
-    price: 2,
+    price: 2.5,
     image: '283A0133.JPG',
   },
   {
@@ -56,19 +56,19 @@ const data = [
   {
     category: 'HOT DRINKS',
     item: 'Lipton tea',
-    price: 1,
+    price: 1.5,
     image: '283A0137.JPG',
   },
   {
     category: 'HOT DRINKS',
     item: 'Town View Tea',
-    price: 2,
+    price: 1.5,
     image: '283A0142.JPG',
   },
   {
     category: 'HOT DRINKS',
     item: 'Black Tea',
-    price: 1,
+    price: 1.5,
     image: '283A0150.JPG',
   },
   {
@@ -80,7 +80,7 @@ const data = [
   {
     category: 'HOT DRINKS',
     item: 'Dawa Tea',
-    price: 1.5,
+    price: 2,
     image: '283A0159.JPG',
   },
   {
@@ -92,13 +92,13 @@ const data = [
   {
     category: 'HOT DRINKS',
     item: 'Cappuccino',
-    price: 1.5,
+    price: 2,
     image: '283A0234.JPG',
   },
   {
     category: 'HOT DRINKS',
     item: 'Town View Cappuccino',
-    price: 3,
+    price: 2.5,
     image: '283A0200.JPG',
   },
   {
@@ -116,7 +116,7 @@ const data = [
   {
     category: 'HOT DRINKS',
     item: 'Honey Latte',
-    price: 2,
+    price: 2.5,
     image: '283A0265.JPG',
   },
   {
@@ -134,13 +134,13 @@ const data = [
   {
     category: 'HOT DRINKS',
     item: 'Black Lipton Tea',
-    price: 1,
+    price: 1.5,
     image: '283A0271.JPG',
   },
   {
     category: 'HOT DRINKS',
     item: 'Doppio coffee',
-    price: 3,
+    price: 2,
     image: 'DSC00001.JPG',
   },
   {
@@ -164,67 +164,67 @@ const data = [
   {
     category: 'MOJITO',
     item: 'Town Classic Lemonade',
-    price: 2.5,
+    price: 3,
     image: '283A0208.JPG',
   },
   {
     category: 'MOJITO',
     item: 'Strawberry Limonade',
-    price: 2.5,
+    price: 3,
     image: '283A0211.JPG',
   },
   {
     category: 'MOJITO',
     item: 'Bluberry mojito',
-    price: 4,
+    price: 3,
     image: '283A0214.JPG',
   },
   {
     category: 'MOJITO',
     item: 'Pistachio. Mojito.',
-    price: 4,
+    price: 3,
     image: '283A0254.JPG',
   },
   {
     category: 'FRAPPES',
     item: 'Cafe frappe. ',
-    price: 3,
+    price: 3.5,
     image: 'DSC00085.JPG',
   },
   {
     category: 'FRAPPES',
     item: 'Vanilla Frappe',
-    price: 3,
+    price: 3.5,
     image: 'DSC00053.JPG',
   },
   {
     category: 'FRAPPES',
     item: 'Strawberry Frappe',
-    price: 3,
+    price: 3.5,
     image: 'DSC00059.JPG',
   },
   {
     category: 'Ice Tea',
     item: 'Town view Ice tea',
-    price: 2.5,
+    price: 3,
     image: 'DSC00039.JPG',
   },
   {
     category: 'Ice Tea',
     item: 'passion Ice tea',
-    price: 2.5,
+    price: 3,
     image: 'DSC00043.JPG',
   },
   {
     category: 'Ice Tea',
     item: 'Cherry Ice tea',
-    price: 2.5,
+    price: 3,
     image: 'DSC00047.JPG',
   },
   {
     category: 'Ice Tea',
     item: 'Popcorn ice tea.',
-    price: 2.5,
+    price: 3,
     image: 'DSC00051.JPG',
   },
   {
@@ -236,25 +236,25 @@ const data = [
   {
     category: 'Ice Latte ',
     item: 'Ice Vanilla latte.',
-    price: 3,
+    price: 2.5,
     image: 'DSC00013.JPG',
   },
   {
     category: 'Ice Latte ',
     item: 'Ice Mocha latte. ',
-    price: 3,
+    price: 2.5,
     image: 'DSC00017.JPG',
   },
   {
     category: 'Ice Latte ',
     item: 'Ice Spanish Latte',
-    price: 3,
+    price: 2.5,
     image: 'DSC00024.JPG',
   },
   {
     category: 'Ice Latte ',
     item: 'Ice Town view Latte',
-    price: 4,
+    price: 2.5,
     image: 'DSC00026.JPG',
   },
   {
@@ -266,7 +266,7 @@ const data = [
   {
     category: 'Smothies',
     item: 'Mango passion smooth.    ',
-    price: 3,
+    price: 4,
     image: 'DSC00104.JPG',
   },
   {
@@ -290,19 +290,19 @@ const data = [
   {
     category: 'Fresh Choice',
     item: 'Orange Choice',
-    price: 2,
+    price: 1.5,
     image: '283A0157.JPG',
   },
   {
     category: 'Fresh Choice',
     item: 'Babaay',
-    price: 1.5,
+    price: 2,
     image: '283A0164.JPG',
   },
   {
     category: 'Fresh Choice',
     item: 'Mango ',
-    price: 1.5,
+    price: 2,
     image: '283A0167.JPG',
   },
   {
@@ -316,6 +316,24 @@ const data = [
     item: 'Isbaandhees',
     price: 1.5,
     image: 'DSC00009.JPG',
+  },
+  {
+    price: 2.5,
+    category: 'Fresh choice',
+    item: 'feeto qare',
+    image: '283A0219.JPG',
+  },
+  {
+    item: 'Mixed Fruits',
+    price: 3,
+    category: 'fresh choice',
+    image: '283A0148.jPG',
+  },
+  {
+    category: 'fesh choice',
+    item: 'qare',
+    price: 1.5,
+    image: '283A0175.JPG',
   },
   {
     category: 'Shakes',
@@ -348,45 +366,33 @@ const data = [
     image: '283A0189.JPG',
   },
   {
-    category: 'Shakes',
-    item: 'Mixed Fruits',
-    price: 3,
-    image: '283A0148.JPG',
-  },
-  {
-    category: 'Shakes',
-    item: 'Feeto qare',
-    price: 2.5,
-    image: '283A0219.JPG',
-  },
-  {
     category: 'Dinner',
     item: 'Chicken Burger',
-    price: 4,
+    price: 5,
     image: '283A0282.JPG',
   },
   {
     category: 'Dinner',
     item: 'Fish Burger',
-    price: 4,
+    price: 5,
     image: '283A0282.JPG',
   },
   {
     category: 'Dinner',
     item: 'Meat Burger',
-    price: 4,
+    price: 5,
     image: '283A0295.JPG',
   },
   {
     category: 'Dinner',
     item: 'Fish Shawarma ',
-    price: 4,
+    price: 5,
     image: '283A0304.JPG',
   },
   {
     category: 'Dinner',
     item: 'Chicken Shawarma ',
-    price: 4,
+    price: 5,
     image: '283A0304.JPG',
   },
   {
@@ -440,7 +446,7 @@ const data = [
   {
     category: 'Lunch',
     item: 'Rice Saldata',
-    price: 1.5,
+    price: '',
     image: 'DSC00096.JPG',
   },
   {
@@ -452,7 +458,7 @@ const data = [
   {
     category: 'Lunch',
     item: 'Dheylo Ari',
-    price: 8,
+    price: '',
     image: 'DSC00109.JPG',
   },
   {
@@ -463,32 +469,26 @@ const data = [
   },
   {
     category: 'Lunch',
-    item: 'Rice (Biryani)',
-    price: 1.5,
-    image: 'DSC00120.JPG',
-  },
-  {
-    category: 'Lunch',
     item: 'Town Chicken',
-    price: 4,
+    price: 7,
     image: 'DSC00131.JPG',
   },
   {
     category: 'Lunch',
     item: 'Silsila Chicken',
-    price: 8,
+    price: 7,
     image: 'DSC00146.JPG',
   },
   {
     category: 'Lunch',
     item: 'Fish Silsila',
-    price: 8,
+    price: 7,
     image: 'DSC00146.JPG',
   },
   {
     category: 'Lunch',
     item: 'Scallop Fish',
-    price: 6,
+    price: 7,
     image: 'DSC09346.JPG',
   },
   {
@@ -518,7 +518,7 @@ const data = [
   {
     category: 'Lunch',
     item: 'Pasta Saldata',
-    price: 1.5,
+    price: 2,
     image: 'DSC09404.JPG',
   },
   {
@@ -572,44 +572,44 @@ const data = [
   {
     category: 'Pizza',
     item: 'Migrate',
+    price: 6,
     size: 'Small',
     image: '283A0302.JPG',
-    price: 6,
   },
   {
     category: 'Pizza',
     item: 'Migrate',
+    price: 8,
     size: 'Medium',
     image: '283A0302.JPG',
-    price: 8,
   },
   {
     category: 'Pizza',
     item: 'Migrate',
+    price: 10,
     size: 'Large',
     image: '283A0302.JPG',
-    price: 10,
   },
   {
     category: 'Pizza',
     item: 'Pizza',
+    price: 7,
     size: 'Small',
     image: '283A0300.JPG',
-    price: 6,
   },
   {
     category: 'Pizza',
     item: 'Pizza',
+    price: 10,
     size: 'Medium',
     image: '283A0300.JPG',
-    price: 8,
   },
   {
     category: 'Pizza',
     item: 'Pizza',
+    price: 13,
     size: 'Large',
     image: '283A0300.JPG',
-    price: 10,
   },
 ]
 
