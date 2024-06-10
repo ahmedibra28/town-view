@@ -5,8 +5,8 @@ import { Roboto } from 'next/font/google'
 const roboto = Roboto({ subsets: ['latin'], weight: '400' })
 
 export const metadata: Metadata = {
-  title: 'Town View Cofe & Restaurant',
-  description: 'Town View Cofe & Restaurant',
+  title: 'Town View Restaurant',
+  description: 'Town View Restaurant',
 }
 
 export default function RootLayout({
@@ -16,9 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={`${roboto.className} bg-slate-100 min-h-screen`}>
-        {children}
-      </body>
+      <body className={`${roboto.className}  min-h-screen`}>{children}</body>
     </html>
   )
 }

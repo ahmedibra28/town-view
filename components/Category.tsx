@@ -1,46 +1,29 @@
 import React from 'react'
 import BlurImage from './BlurImage'
 
-const Category = ({ label }: { label: string }) => {
-  const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/town-view/'
-
-  const categories = [
-    { label: 'HOT DRINKS', image: baseUrl + '283A0111.JPG' },
-    { label: 'Limonade', image: baseUrl + '283A0211.JPG' },
-    { label: 'MOJITO', image: baseUrl + '283A0214.JPG' },
-    { label: 'FRAPPES', image: baseUrl + 'DSC00059.JPG' },
-    { label: 'Ice Tea', image: baseUrl + 'DSC00047.JPG' },
-    { label: 'Ice Latte ', image: baseUrl + 'DSC00017.JPG' },
-    { label: 'Smothies', image: baseUrl + 'DSC00137.JPG' },
-    { label: 'Fresh Choice', image: baseUrl + '283A0173.JPG' },
-    { label: 'Shakes', image: baseUrl + '283A0195.JPG' },
-    { label: 'Dinner', image: baseUrl + '283A0304.JPG' },
-    { label: 'Pastries and cakes', image: baseUrl + 'DSC00076.JPG' },
-    { label: 'Lunch', image: baseUrl + 'DSC00096.JPG' },
-    { label: 'Breakfast', image: baseUrl + 'DSC09982.JPG' },
-    { label: 'Pizza', image: baseUrl + '283A0302.JPG' },
-  ]
-
-  const item = categories?.find(
-    (item) => item.label?.toLowerCase() === label?.toLowerCase()
-  )
+const Category = ({
+  category,
+}: {
+  category: { label: string; img: string }
+}) => {
+  // const img =
+  //   'https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 
   return (
-    <div className='card h-44 image-full relative shadow-2xl'>
+    <div className='card shadow-xl mx-auto bg-white text-my-primary'>
       <figure>
         <BlurImage
-          src={item?.image!}
-          alt={label}
+          src={category.img}
+          alt={'logo'}
           width={500}
           height={500}
-          className='rounded-xl w-full h-44  shadow-xl'
-          objectFit='cover'
+          className='rounded-xl w-44 h-44 object-cover'
         />
       </figure>
-      <div className='card-body flex justify-center items-center bg-black/50 z-50 rounded-xl'>
-        <h2 className='card-title text-white font-bold uppercase'>
-          {item?.label}
-        </h2>
+      <div className='card-body items-center text-center py-3 px-2'>
+        <h3 className='text-sm  md:text-md uppercase font-bold leading-nones'>
+          {category.label}
+        </h3>
       </div>
     </div>
   )

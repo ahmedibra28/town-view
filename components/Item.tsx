@@ -1,37 +1,49 @@
+import BlurImage from '@/components/BlurImage'
 import React from 'react'
-import BlurImage from './BlurImage'
 
 interface ItemProp {
-  category: string
-  item: string
-  price: number | string
-  image: string
-  size?: string
+  category?: string
+  item?: string
+  price?: number
+  image?: any | string
+  size?: any | string
+  description?: string
 }
 const Item = ({ item }: { item: ItemProp }) => {
+  const hasInNumber = item?.size && /\d/.test(item?.size)
+
+  const newPriceFormat = hasInNumber
+    ? item?.size?.split(' ')?.map((item: string) => {
+        const s = item?.split('-')[0]
+        const p = item?.split('-')[1]
+        const f = `${s} - $${parseInt(p).toFixed(2)}`
+        return f
+      })
+    : item?.price || 0
+
+  const noImageAvailable =
+    'https://www.ecpgr.cgiar.org/fileadmin/templates/ecpgr.org/Assets/images/No_Image_Available.jpg'
   return (
-    <div className='card shadow-xl mx-auto bg-white text-gray-700 h-72'>
-      <figure>
+    <div className='card shadow-xl mx-auto bg-white text-gray-700 flex flex-row justify-between items-center rounded-xl'>
+      <figure className='w-[35%] bg-red-200s rounded-xl rounded-tr-none rounded-br-none'>
         <BlurImage
-          src={item.image}
-          alt={item.item}
+          src={item?.image || noImageAvailable}
+          alt={item?.item!}
           width={500}
           height={500}
-          className='rounded-xl w-full h-full'
+          className='rounded-xl w-36 h-36 md:w-44 md:h-44 object-cover p-2'
         />
       </figure>
-      <div className='card-body items-center text-center py-3 px-2'>
-        <h3 className='md:text-lg text-sm uppercase font-bold leading-nones'>
-          {item.item}
-        </h3>
-        <label htmlFor='size'>{item?.size}</label>
-        <div className='card-actions w-full md:w-auto'>
-          <button className='btn btn-ghost bg-my-secondary text-white hover:text-my-primary bottom-1 outline btn-sm text-xs sm:text-md outline-secondary font-bold px-1 md:px-4 w-full'>
-            {typeof item.price === 'number'
-              ? `$${item.price?.toFixed(2)}`
-              : item.price}
-          </button>
-        </div>
+      <div className='card-body py-2 px-1.5 w-[55%]'>
+        <h3 className='font-bold text-my-primary'>{item.item}</h3>
+        <p className='font-bold text-sm'>
+          {typeof newPriceFormat === 'number'
+            ? `$${newPriceFormat}`
+            : newPriceFormat?.map((item: string) => (
+                <span key={item}> {item} </span>
+              ))}
+        </p>
+        <p className='text-xs'>{item?.description}</p>
       </div>
     </div>
   )

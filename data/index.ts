@@ -3,6 +3,7 @@ const data = [
     category: 'HOT DRINKS',
     item: 'Espresso',
     price: 2,
+    description: '',
     image: '283A0111.JPG',
   },
   {
@@ -326,11 +327,11 @@ const data = [
   {
     item: 'Mixed Fruits',
     price: 3,
-    category: 'fresh choice',
-    image: '283A0148.jPG',
+    category: 'Fresh choice',
+    image: '283A0148.JPG',
   },
   {
-    category: 'fesh choice',
+    category: 'Fresh choice',
     item: 'qare',
     price: 1.5,
     image: '283A0175.JPG',
@@ -369,31 +370,31 @@ const data = [
     category: 'Dinner',
     item: 'Chicken Burger',
     price: 5,
-    image: '283A0282.JPG',
+    image: '283A9862.JPG',
   },
   {
     category: 'Dinner',
     item: 'Fish Burger',
     price: 5,
-    image: '283A0282.JPG',
+    image: '283A9862.JPG',
   },
   {
     category: 'Dinner',
     item: 'Meat Burger',
     price: 5,
-    image: '283A0295.JPG',
+    image: '283A9862.JPG',
   },
   {
     category: 'Dinner',
     item: 'Fish Shawarma ',
     price: 5,
-    image: '283A0304.JPG',
+    image: '283A9854.JPG',
   },
   {
     category: 'Dinner',
     item: 'Chicken Shawarma ',
     price: 5,
-    image: '283A0304.JPG',
+    image: '283A9854.JPG',
   },
   {
     category: 'Pastries and cakes',
@@ -454,60 +455,56 @@ const data = [
     item: 'Finger Fish',
     price: 6,
     image: 'DSC00100.JPG',
+    description: 'filet of fish, battered and deep fried',
   },
   {
     category: 'Lunch',
     item: 'Dheylo Ari',
     price: 10,
     image: 'DSC00109.JPG',
+    description: 'young goat, saute with onion, garlic and different species',
   },
   {
     category: 'Lunch',
     item: 'Chicken Kutuleti',
     price: 7,
     image: 'DSC00118.JPG',
+    description: 'Chicken Breast, battered and deep fried',
   },
   {
     category: 'Lunch',
     item: 'Town Chicken',
     price: 7,
     image: 'DSC00131.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Silsila Chicken',
-    price: 7,
-    image: 'DSC00146.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Fish Silsila',
-    price: 7,
-    image: 'DSC00146.JPG',
+    description: 'leg quater of chicken, marinade and saute with vigetable',
   },
   {
     category: 'Lunch',
     item: 'Scallop Fish',
     price: 7,
     image: 'DSC09346.JPG',
+    description: 'Piecies of fish with special sauce',
   },
   {
     category: 'Lunch',
     item: 'Grilled Fish',
     price: 6,
     image: 'DSC09373.JPG',
+    description: 'Grilled fish with spacies',
   },
   {
     category: 'Lunch',
     item: 'Camel Steak',
     price: 7,
     image: 'DSC09379.JPG',
+    description: 'saute with veditable and spacies',
   },
   {
     category: 'Lunch',
-    item: 'Town View Fish.JPG',
+    item: 'Town View Fish',
     price: 8,
     image: 'DSC09380.JPG',
+    description: 'king fish saute with blend of spacies',
   },
   {
     category: 'Lunch',
@@ -526,48 +523,51 @@ const data = [
     item: 'Egg with milk omelette',
     price: 4,
     image: 'DSC09962.JPG',
+    description: 'three pieces of Eggs made with special cream',
   },
   {
     category: 'Breakfast',
-    item: 'Omelette',
+    item: 'Malawax Wrap',
     price: 4,
     image: 'DSC09965.JPG',
+    description: 'Malawax wrap with scrabmled eggs',
   },
   {
     category: 'Breakfast',
-    item: 'Fuul With Malawax',
+    item: 'Fuul ',
     price: 4,
     image: 'DSC09974.JPG',
+    description:
+      'fava peans cooked with tamato and spacies, you can get either chappati, anjeram bread or malawax',
   },
   {
     category: 'Breakfast',
-    item: 'Spanish Omelette',
+    item: 'Spinach Omelette',
     price: 4,
     image: 'DSC09979.JPG',
+    description: 'Omelette wrap with spinach',
   },
   {
     category: 'Breakfast',
-    item: 'Beer With Malawax',
+    item: 'Liver',
     price: 5,
     image: 'DSC09982.JPG',
+    description: 'Goat liver, saute with onion and blendy of species',
   },
   {
     category: 'Breakfast',
-    item: 'Suqaar With Malawax',
+    item: 'Suqaar ',
     price: 5,
     image: 'DSC09984.JPG',
+    description:
+      ' Pieces of camel meat, saute with spices and vegitgables to perfection',
   },
   {
     category: 'Breakfast',
-    item: 'Faasuuliya with Malawax',
-    price: 4,
-    image: 'DSC09987.JPG',
-  },
-  {
-    category: 'Breakfast',
-    item: 'Shakshuka With Malawax',
+    item: 'Shakshuka ',
     price: 4,
     image: 'DSC09991.JPG',
+    description: 'Egg cooked with tomato Peree',
   },
   {
     category: 'Pizza',
@@ -575,6 +575,7 @@ const data = [
     price: 6,
     size: 'Small',
     image: '283A0302.JPG',
+    description: 'Chees pizza',
   },
   {
     category: 'Pizza',
@@ -582,6 +583,7 @@ const data = [
     price: 8,
     size: 'Medium',
     image: '283A0302.JPG',
+    description: 'Chees pizza',
   },
   {
     category: 'Pizza',
@@ -589,6 +591,7 @@ const data = [
     price: 10,
     size: 'Large',
     image: '283A0302.JPG',
+    description: 'Chees pizza',
   },
   {
     category: 'Pizza',
@@ -596,6 +599,7 @@ const data = [
     price: 7,
     size: 'Small',
     image: '283A0300.JPG',
+    description: 'chees pizza  Pizza with Topings',
   },
   {
     category: 'Pizza',
@@ -603,6 +607,7 @@ const data = [
     price: 10,
     size: 'Medium',
     image: '283A0300.JPG',
+    description: 'chees pizza  Pizza with Topings',
   },
   {
     category: 'Pizza',
@@ -610,19 +615,17 @@ const data = [
     price: 13,
     size: 'Large',
     image: '283A0300.JPG',
+    description: 'chees pizza  Pizza with Topings',
   },
 ]
 
-const noImageAvailable =
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
-
 export const getItems = () => {
-  const imageBaseUrl =
-    'https://farshaxan.blr1.cdn.digitaloceanspaces.com/town-view/'
-  return data?.map((item) => ({
+  return data.map((item) => ({
     ...item,
-    image: item?.image ? imageBaseUrl + item.image : noImageAvailable,
-    price: item?.price || 0,
+    size: item?.size || null,
+    image: item?.image
+      ? `https://farshaxan.blr1.cdn.digitaloceanspaces.com/town-view/${item.image}`
+      : null,
   }))
 }
 
@@ -632,6 +635,32 @@ export const getCategories = () => {
 
 export const getItemsByCategory = (category: string) => {
   return getItems().filter(
-    (item) => item.category.toLowerCase() === category.toLowerCase()
+    (item) => item.category.toLowerCase() === category.toLowerCase(),
+  )
+}
+
+export const groupItemsByCategory = () => {
+  return Object.values(
+    getItems().reduce((acc: any, item) => {
+      const { category } = item
+      acc[category] = acc[category] || []
+      acc[category].push(item)
+      return acc
+    }, {}),
+  )
+}
+
+export const groupItemsByCategorySlug = (slug: string) => {
+  const slugToTitle = slug?.replaceAll('-', ' ')?.toLowerCase()
+
+  const items = getItemsByCategory(slugToTitle)
+
+  return Object.values(
+    items.reduce((acc: any, item) => {
+      const { category } = item
+      acc[category] = acc[category] || []
+      acc[category].push(item)
+      return acc
+    }, {}),
   )
 }

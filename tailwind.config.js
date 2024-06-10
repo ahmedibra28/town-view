@@ -19,12 +19,12 @@ module.exports = {
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [require("daisyui")],
   daisyui: {
     themes: [
       {
         light: {
-          ...require('daisyui/src/theming/themes')['[data-theme=light]'],
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
           primary: '#553213',
           'primary-hover': '#976735',
           'primary-focus': '#a47d5b',
@@ -36,3 +36,4 @@ module.exports = {
     ],
   },
 }
+

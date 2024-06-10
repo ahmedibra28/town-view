@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 
 // import { getPlaiceholder } from 'plaiceholder'
@@ -16,7 +18,7 @@ export function BlurImage({
   width: number
   height: number
   className?: string
-  objectFit?: any
+  objectFit?: 'contain' | 'cover'
 }) {
   const base64 =
     'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAsTAAALEwEAmpwYAAAALUlEQVR4nGNgYGBg+H9rgd//J6ujQWww+H9pefv/UzO2IQS+vUv7cud4JogDAMgDEhA+9jbyAAAAAElFTkSuQmCC'
@@ -29,10 +31,10 @@ export function BlurImage({
       blurDataURL={base64}
       placeholder='blur'
       alt={alt}
-      className={className}
+      className={`${className}`}
       quality={100}
-      style={{ objectFit: objectFit }}
       unoptimized
+      // style={{ objectFit: 'contain' }}
     />
   )
 }
