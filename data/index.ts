@@ -328,7 +328,7 @@ const data = [
     item: 'Mixed Fruits',
     price: 3,
     category: 'Fresh choice',
-    image: '283A0148.JPG',
+    image: '283A0148.jPG',
   },
   {
     category: 'Fresh choice',
@@ -428,9 +428,21 @@ const data = [
   },
   {
     category: 'Pastries and cakes',
+    item: 'Bur macaan',
+    price: 2,
+    image: 'DSC09231.JPG',
+    description: '10 pieces',
+  },
+  {
+    category: 'Pastries and cakes',
     item: 'Orange Cake',
     price: 3,
     image: 'DSC00093.JPG',
+  },
+  {
+    category: 'Pastries and cakes',
+    item: 'Cinnamon roll',
+    price: 0.5,
   },
   {
     category: 'Pastries and cakes',
@@ -452,10 +464,66 @@ const data = [
   },
   {
     category: 'Lunch',
-    item: 'Finger Fish',
+    item: 'Fish sukhaar',
+    description: 'Chunks of fish sautéed with veggies',
+    price: 5,
+    image: 'DSC09279.JPG',
+  },
+  {
+    category: 'Lunch',
+    item: 'Chicken sukhaar',
+    description: 'Chicken breast sautéed with veggie and spices',
+    price: 5,
+    image: 'DSC09227.JPG',
+  },
+  {
+    category: 'Lunch',
+    item: 'Chicken Broast',
+    price: 4,
+    description: 'Chicken drums breaded and deep fried',
+    image: 'DSC09267.JPG',
+  },
+  {
+    category: 'Lunch',
+    item: 'Scallop Chicken',
+    price: 7,
+    description: 'leg quater of chicken, marinade and saute with vigetable',
+    image: 'DSC00131.JPG',
+  },
+  {
+    category: 'Lunch',
+    item: 'Crispy Chicken Finger',
     price: 6,
-    image: 'DSC00100.JPG',
-    description: 'filet of fish, battered and deep fried',
+    description: 'Chicken breast breaded and deep fried',
+    image: 'DSC09246.JPG',
+  },
+  {
+    category: 'Lunch',
+    item: 'Crispy Fish Finger',
+    price: 6,
+    image: 'DSC09223.JPG',
+    description: 'Fillet of fish deep fried',
+  },
+  {
+    category: 'Lunch',
+    item: 'Beef Steak',
+    description: 'Beef steak grilled to perfection',
+    price: 7,
+    image: 'DSC09241.JPG',
+  },
+  {
+    category: 'Lunch',
+    item: 'Pasta Alforno',
+    description: 'Baked macaroni with sauce and cheese',
+    price: 5,
+    image: 'DSC09324.JPG',
+  },
+  {
+    category: 'Lunch',
+    description: 'Chunks of fish sautéed with special sauce',
+    item: 'Shanghai Fish',
+    price: 7,
+    image: 'DSC09282.JPG',
   },
   {
     category: 'Lunch',
@@ -473,10 +541,10 @@ const data = [
   },
   {
     category: 'Lunch',
-    item: 'Town Chicken',
-    price: 7,
-    image: 'DSC00131.JPG',
-    description: 'leg quater of chicken, marinade and saute with vigetable',
+    item: 'Town View Chicken',
+    price: 8,
+    image: 'DSC09316.JPG',
+    description: 'Fillet of chicken served with spinsh and special cream sauce',
   },
   {
     category: 'Lunch',
@@ -498,6 +566,13 @@ const data = [
     price: 7,
     image: 'DSC09379.JPG',
     description: 'saute with veditable and spacies',
+  },
+  {
+    category: 'Lunch',
+    item: 'Fish Masala',
+    price: 6,
+    description: 'Fillet of fish made with masala sauce',
+    image: 'DSC09302.JPG',
   },
   {
     category: 'Lunch',
@@ -534,7 +609,7 @@ const data = [
   },
   {
     category: 'Breakfast',
-    item: 'Fuul ',
+    item: 'Fuul',
     price: 4,
     image: 'DSC09974.JPG',
     description:
@@ -556,7 +631,7 @@ const data = [
   },
   {
     category: 'Breakfast',
-    item: 'Suqaar ',
+    item: 'Suqaar',
     price: 5,
     image: 'DSC09984.JPG',
     description:
@@ -564,7 +639,7 @@ const data = [
   },
   {
     category: 'Breakfast',
-    item: 'Shakshuka ',
+    item: 'Shakshuka',
     price: 4,
     image: 'DSC09991.JPG',
     description: 'Egg cooked with tomato Peree',
