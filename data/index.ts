@@ -443,6 +443,7 @@ const data = [
     category: 'Pastries and cakes',
     item: 'Cinnamon roll',
     price: 0.5,
+    image: 'DSC09238.JPG',
   },
   {
     category: 'Pastries and cakes',
@@ -495,7 +496,7 @@ const data = [
     item: 'Crispy Chicken Finger',
     price: 6,
     description: 'Chicken breast breaded and deep fried',
-    image: 'DSC09246.JPG',
+    image: 'DSC09223.JPG',
   },
   {
     category: 'Lunch',
