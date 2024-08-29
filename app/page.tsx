@@ -25,6 +25,7 @@ export default async function Home() {
     { label: 'Lunch', img: imageUrl('DSC00096.JPG') },
     { label: 'Breakfast', img: imageUrl('DSC09982.JPG') },
     { label: 'Pizza', img: imageUrl('283A0302.JPG') },
+    { label: 'Fast Food', img: imageUrl('DSC07074.JPG') },
   ]
 
   return (
