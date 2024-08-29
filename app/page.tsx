@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Category from '@/components/Category'
 import BlurImage from '@/components/BlurImage'
+// import { getCategories } from '@/data'
 
 export default async function Home() {
   const slugGenerator = (text: string) => {
@@ -11,22 +12,17 @@ export default async function Home() {
     `https://farshaxan.blr1.cdn.digitaloceanspaces.com/town-view/${image}`
 
   const images = [
-    { label: 'HOT DRINKS', img: imageUrl('283A0111.JPG') },
-    { label: 'Limonade', img: imageUrl('283A0211.JPG') },
-    { label: 'MOJITO', img: imageUrl('283A0214.JPG') },
-    { label: 'FRAPPES', img: imageUrl('DSC00059.JPG') },
-    { label: 'Ice Tea', img: imageUrl('DSC00047.JPG') },
-    { label: 'Ice Latte ', img: imageUrl('DSC00017.JPG') },
-    { label: 'Smothies', img: imageUrl('DSC00137.JPG') },
-    { label: 'Fresh Choice', img: imageUrl('283A0173.JPG') },
-    { label: 'Shakes', img: imageUrl('283A0195.JPG') },
-    { label: 'Dinner', img: imageUrl('283A0304.JPG') },
-    { label: 'Pastries and cakes', img: imageUrl('DSC00076.JPG') },
-    { label: 'Lunch', img: imageUrl('DSC00096.JPG') },
     { label: 'Breakfast', img: imageUrl('DSC09982.JPG') },
-    { label: 'Pizza', img: imageUrl('283A0302.JPG') },
+    { label: 'Lunch', img: imageUrl('DSC00096.JPG') },
     { label: 'Fast Food', img: imageUrl('DSC07074.JPG') },
+    { label: 'Pastries and cakes', img: imageUrl('DSC00076.JPG') },
+    { label: 'HOT Drinks', img: imageUrl('283A0111.JPG') },
+    { label: 'Cold Drinks', img: imageUrl('283A0207.JPG') },
   ]
+
+  // const cat = await getCategories()
+  // const unique = [...new Set(cat)]
+  // console.log(unique)
 
   return (
     <main className='max-w-6xl mx-auto py-5 px-2 md:p-5'>
